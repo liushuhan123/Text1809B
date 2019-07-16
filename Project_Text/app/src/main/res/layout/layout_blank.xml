@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="1dp"
+    app:cardElevation="1dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tc_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小生"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tc_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tc_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tc_author"
+            android:layout_marginTop="10dp"
+            android:text="内容"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tc_con"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tc_title"
+            android:layout_marginTop="10dp"
+            android:textSize="10dp" />
+
+        <CheckBox
+            android:id="@+id/tc_tp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="50dp"
+            android:button="@null" />
+
+    </RelativeLayout>
+
+</LinearLayout>

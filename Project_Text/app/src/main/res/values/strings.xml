@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Project_Text</string>
+    <string name="home_shouye">首页</string>
+    <string name="home_zhishi">知识体系</string>
+    <string name="home_gongzhong">公众号</string>
+    <string name="home_nav">导航</string>
+    <string name="home_project">项目</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_item_chapter_name">%1$s/%2$s</string>
+</resources>
